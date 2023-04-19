@@ -1,0 +1,21 @@
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\bin\Debug\Barcode and QR code scanner.exe.config
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\bin\Debug\Barcode and QR code scanner.exe
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\bin\Debug\Barcode and QR code scanner.pdb
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\bin\Debug\AForge.dll
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\bin\Debug\AForge.Video.dll
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\bin\Debug\AForge.xml
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\bin\Debug\AForge.Video.xml
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\obj\Debug\Barcode and QR code scanner.csprojAssemblyReference.cache
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\obj\Debug\Barcode_and_QR_code_scanner.Properties.Resources.resources
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\obj\Debug\Barcode and QR code scanner.csproj.GenerateResource.cache
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\obj\Debug\Barcode and QR code scanner.csproj.CoreCompileInputs.cache
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\obj\Debug\Barcode and QR code scanner.csproj.CopyComplete
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\obj\Debug\Barcode and QR code scanner.exe
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\obj\Debug\Barcode and QR code scanner.pdb
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\bin\Debug\zxing.dll
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\bin\Debug\zxing.presentation.dll
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\bin\Debug\zxing.xml
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\bin\Debug\zxing.presentation.xml
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\obj\Debug\Barcode_and_QR_code_scanner.QRscanner.resources
