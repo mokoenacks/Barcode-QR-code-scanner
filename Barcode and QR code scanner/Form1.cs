@@ -31,7 +31,8 @@ namespace Barcode_and_QR_code_scanner
 
         private void CaptureDevice_NewFrame(object sender, NewFrameEventArgs eventArgs)
         {
-            pictureBox.Image = (Bitmap)eventArgs.Frame.Clone();
+            pictureBox.Image = (Bitmap)eventArgs.Frame.Clone();// QR code
+           
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -51,7 +52,10 @@ namespace Barcode_and_QR_code_scanner
                 captureDevice.Stop();
             }
         }
-
+        public static bool IsValidUrl(string url)
+        {
+            return Uri.IsWellFormedUriString(url, UriKind.RelativeOrAbsolute);
+        }
         private void timer1_Tick(object sender, EventArgs e)
         {
             if(pictureBox.Image != null)
@@ -61,6 +65,23 @@ namespace Barcode_and_QR_code_scanner
                 if(result != null)
                 {
                     textBox_display.Text = result.ToString();
+                    if(IsValidUrl(textBox_display.Text)==true)
+                    {
+                       DialogResult result1= MessageBox.Show("Open Web Browser?","Permission?",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
+                        if (result1 == DialogResult.Yes)
+                        {
+                            System.Diagnostics.Process.Start(textBox_display.Text);//open link if there is one
+                        }
+                        else 
+                        {
+                            this.Close();
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("There is no link");
+                    }
+                    
                     timer1.Stop();
                     if (captureDevice.IsRunning)
                     {

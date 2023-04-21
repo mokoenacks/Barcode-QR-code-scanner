@@ -22,3 +22,5 @@ C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code sc
 C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\bin\Debug\Barcode and QR code scanner.application
 C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\obj\Debug\Barcode and QR code scanner.exe.manifest
 C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\obj\Debug\Barcode and QR code scanner.application
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\obj\Debug\QR code scanner.csproj.AssemblyReference.cache
+C:\Users\Clement\Documents\C#\Barcode and QR code scanner\Barcode and QR code scanner\obj\Debug\QR code scanner.csproj.SuggestedBindingRedirects.cache
