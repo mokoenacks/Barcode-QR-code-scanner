@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Barcode and QR code scanner"
   ],
-  "SelectedNode": "\\QR code scanner.sln",
+  "SelectedNode": "\\Barcode and QR code scanner\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

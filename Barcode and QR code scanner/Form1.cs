@@ -37,6 +37,7 @@ namespace Barcode_and_QR_code_scanner
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
             filter = new FilterInfoCollection(FilterCategory.VideoInputDevice);
             foreach (FilterInfo filterInfo in filter)
             {
@@ -50,10 +51,12 @@ namespace Barcode_and_QR_code_scanner
             if (captureDevice.IsRunning)
             {
                 captureDevice.Stop();
+                Application.Exit();
             }
+
         }
         public static bool IsValidUrl(string url)
-        {
+        {//checking whether its a URL link
             return Uri.IsWellFormedUriString(url, UriKind.RelativeOrAbsolute);
         }
         private void timer1_Tick(object sender, EventArgs e)
@@ -71,10 +74,11 @@ namespace Barcode_and_QR_code_scanner
                         if (result1 == DialogResult.Yes)
                         {
                             System.Diagnostics.Process.Start(textBox_display.Text);//open link if there is one
+                            
                         }
-                        else 
+                        else if(result1 == DialogResult.No) 
                         {
-                            this.Close();
+                            result1 = DialogResult.Cancel;
                         }
                     }
                     else

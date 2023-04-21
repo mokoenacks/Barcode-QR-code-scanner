@@ -36,6 +36,7 @@
             this.comboBox_cam = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,6 +63,7 @@
             this.pictureBox.Location = new System.Drawing.Point(19, 46);
             this.pictureBox.Name = "pictureBox";
             this.pictureBox.Size = new System.Drawing.Size(297, 222);
+            this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox.TabIndex = 3;
             this.pictureBox.TabStop = false;
             // 
@@ -100,6 +102,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(340, 370);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.comboBox_cam);
@@ -108,7 +111,7 @@
             this.Controls.Add(this.textBox_display);
             this.Controls.Add(this.button_scan);
             this.Name = "QRscanner";
-            this.Text = "Form1";
+            this.Text = "QR Scanner";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
@@ -126,6 +129,7 @@
         private System.Windows.Forms.ComboBox comboBox_cam;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Timer timer1;
+        private System.IO.Ports.SerialPort serialPort1;
     }
 }
 
