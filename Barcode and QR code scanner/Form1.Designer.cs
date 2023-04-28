@@ -37,12 +37,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // button_scan
             // 
-            this.button_scan.Location = new System.Drawing.Point(113, 335);
+            this.button_scan.Location = new System.Drawing.Point(156, 335);
             this.button_scan.Name = "button_scan";
             this.button_scan.Size = new System.Drawing.Size(75, 23);
             this.button_scan.TabIndex = 0;
@@ -54,7 +55,7 @@
             // 
             this.textBox_display.Location = new System.Drawing.Point(50, 293);
             this.textBox_display.Name = "textBox_display";
-            this.textBox_display.Size = new System.Drawing.Size(278, 20);
+            this.textBox_display.Size = new System.Drawing.Size(320, 20);
             this.textBox_display.TabIndex = 1;
             // 
             // pictureBox
@@ -62,10 +63,11 @@
             this.pictureBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox.Location = new System.Drawing.Point(19, 46);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(297, 222);
+            this.pictureBox.Size = new System.Drawing.Size(365, 222);
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox.TabIndex = 3;
             this.pictureBox.TabStop = false;
+            this.pictureBox.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // label1
             // 
@@ -98,12 +100,23 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(322, 7);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Select";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // QRscanner
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(340, 370);
+            this.ClientSize = new System.Drawing.Size(413, 370);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.comboBox_cam);
             this.Controls.Add(this.label1);
@@ -130,6 +143,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Timer timer1;
         private System.IO.Ports.SerialPort serialPort1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
